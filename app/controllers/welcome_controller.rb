@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
-  def index
+  def about
   end
   def home
   end

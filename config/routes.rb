@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   
   root 'welcome#home'
   
-  get 'index', to: 'welcome#index'
+  get 'about', to: 'welcome#about'
 
   resources :articles
   # The priority is based upon order of creation: first created -> highest priority.
